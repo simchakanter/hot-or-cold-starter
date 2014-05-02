@@ -32,6 +32,7 @@ $(document).ready(function(){
 			userGuessCount++;
 			$("#count").text(userGuessCount);
 			hotOrCold(userGuessNumber);
+			$("#userGuess").val("");
 		})
 
   	// Start a new game by pressing the new game button
